@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="旅游...">
+    <meta name="author" content="作者">
+    <meta name="keywords" content="旅游，定制旅游">
+    <link rel="stylesheet" href="./css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="./img/bootstrap-icons-1.8.1/bootstrap-icons.css" type="text/css">
+    <title>Document</title>
+</head>
+<style>
+    .breadcrumb-item+.breadcrumb-item::before {
+        content: url(C:/Users/ZH/Desktop/tourSite/img/bootstrap-icons-1.8.1/link-45deg.svg)
+    }
+</style>
+
+<body>
+    <div class="container-fluid">
+        <!-- 导航栏板块 start -->
+        <nav class="navbar bg-primary navbar-dark navbar-expand-lg">
+            <a href="" class="navbar-brand">插画</a>
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">首页</a></li>
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">插画选择</a>
+                        <div class="dropdown-menu">
+                            <a href="tourRoutes.html?region=0" class="dropdown-item">本人设计作品</a>
+                            <a href="tourRoutes.html?region=1" class="dropdown-item">他人设计作品</a>
+                        </div>
+                    </li>
+                    <li class="nav-item"><a id="contactLink" data-placement="bottom" data-HTML="true"
+                            data-trigger="hover" data-content="<img src='./img/weixin.jpg'>" href="#"
+                            class="nav-link">联系我们</a></li>
+                </ul>
+                <form action="" class="form-inline">
+                    <input type="text" class="form-control" placeholder="站内搜索">
+                    <button class="btn btn-outline-light ml-3">搜索</button>
+                </form>
+            </div>
+        </nav>
+        <!-- 导航栏板块 end -->
+        <!-- 面包屑版块 start -->
+        <nav>
+            <ol class="breadcrumb bg-transparent">
+                <li class="breadcrumb-item"><a href="">国内</a></li>
+                <li class="breadcrumb-item"><a href="">西北</a></li>
+                <li class="breadcrumb-item"><a href="">青海</a></li>
+            </ol>
+        </nav>
+        <!-- 面包屑版块 end -->
+        <!-- 线路参数版块 start -->
+        <div class="card border-0">
+            <h4 class="card-header bg-transparent">
+                <a href="" class="badge badge-pill badge-warning">召集中</a>
+                线路标题
+            </h4>
+            <div class="card-body row">
+                <div class="col-md-7">
+                    <img class="img-fluid shadow" src="./img/2.jpg" alt="">
+                </div>
+                <ul class="col-md-5 list-group pr-0">
+                    <li class="list-group-item border-0">预定价格：4800</li>
+                    <li class="list-group-item border-0">预定价格：4800</li>
+                    <li class="list-group-item border-0">预定价格：4800</li>
+                    <li class="list-group-item border-0">预定价格：4800</li>
+                    <li class="list-group-item border-0">预定价格：4800</li>
+                    <li class="list-group-item border-0">预定价格：4800</li>
+                    <li class="list-group-item border-0">预定价格：4800</li>
+                    <li class="list-group-item border-0">
+                        <button class="btn btn-warning">立即预定</button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- 线路参数版块 end -->
+        <!-- 选项卡版块 start -->
+        <ul class="nav nav-tabs">
+            <li class="nav-item">
+                <a href="#scheduling" class="nav-link active" data-toggle="tab">
+                    <h6>行程</h6>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="#comments" class="nav-link" data-toggle="tab">
+                    <h6>评价</h6>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="#price" class="nav-link" data-toggle="tab">
+                    <h6>价格说明</h6>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="#payment" class="nav-link" data-toggle="tab">
+                    <h6>付款方式</h6>
+                </a>
+            </li>
+        </ul>
+        <!-- 选项卡版块 end -->
+        <div class="tab-content border border-top-0 pb-2">
+            <!-- 行程安排 start -->
+            <div class="tab-pane fade show active" id="scheduling">
+                <div class="list-group pt-4">
+                    <div class="list-group-item py-0 border-0">
+                        <h6><span class="bg-primary text-light rounded-circle p-2">D1</span></h6>
+                        <div class="border-left border-primary ml-3 pl-3 pb-1">
+                            <p>西宁火车站集合</p>
+                            <p>晚饭后,入住西宁市酒店.领队做青海湖夏季常见鸟种介绍</p>
+                        </div>
+                    </div>
+                    <div class="list-group-item py-0 border-0">
+                        <h6><span class="bg-primary text-light rounded-circle p-2">D2</span></h6>
+                        <div class="border-left border-primary ml-3 pl-3 pb-1">
+                            <p>目标鸟种:斑头雁/棕头鸥/赤麻鸭/...</p>
+                            <p>6:00早餐后出发前往青海湖</p>
+                            <p>全天环湖观鸟,晚餐后入住青海湖景区酒店</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 行程安排 end -->
+            <!-- 用户评价 start -->
+            <div class="tab-pane fade" id="comments">
+                <div class="list-group list-group-flush">
+                    <div class="list-group-item d-flex">
+                        <div>
+                            <i class="bi bi-person-fill text-primary ml-2"></i>
+                            <div>user1</div>
+                        </div>
+                        <div class="pl-3 flex-grow-1">
+                            <p>鸟况很好,记录鸟种45种</p>
+                            <small>2019-8-5</small>
+                        </div>
+                    </div>
+                    <div class="list-group-item d-flex">
+                        <div>
+                            <i class="bi bi-person-fill text-primary ml-2"></i>
+                            <div>user2</div>
+                        </div>
+                        <div class="pl-3">
+                            <p>风景很美</p>
+                            <small>2019-8-3</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 用户评价 end -->
+            <div class="tab-pane fade" id="price">价格方式</div>
+            <div class="tab-pane fade" id="payment">付款方式</div>
+        </div>
+        <!-- 选项卡版块 end -->
+        <!-- 页脚版块 start -->
+        <footer class="text-right">
+            <p>Copyright © 2020 XXXXXXXXXX co., Ltd. All Right Reserved</p>
+            <p>深圳XXXXX旅游有限公司 粤ICP备XXXXXXXXXX号</p>
+        </footer>
+        <!-- 页脚版块 end -->
+    </div>
+
+    <script src="./js/jquery-3.6.0.min.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/tourSite.menu.js"></script>
+</body>
+
+</html>
